@@ -1,7 +1,15 @@
 #ifndef TASKLISTMODEL_H
 #define TASKLISTMODEL_H
+#include <QAbstractListModel>
 
-class TaskListModel
+class Task {
+    Task() {
+
+    }
+
+};
+
+class TaskListModel :public QAbstractListModel
 {
     Q_OBJECT
 public:
